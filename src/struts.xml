@@ -3,12 +3,11 @@
 <struts>
 
 
-	<package name="abc" extends="tiles-default">
-
-		<action name="loginAction" class="com.demoReportingAndAnalytics.LoginAction">
-			<result name="success" type="tiles">login-success</result>
-			<result name="error" type="tiles">login-error</result>
+	
+	<package name="abc" extends="tiles-default" >
+		<action name="loginAction" class="com.reportingAndAnalytics.LoginAction">
+		<result name="success" type="tiles">login-success</result>
+		<result name="error" type="tiles">login-error</result>
 		</action>
-
 	</package>
 </struts>    
